@@ -1,0 +1,13 @@
+import math
+
+a = float(input("Valor de a: "))
+b = float(input("Valor de b: "))
+c = float(input("Valor de c: "))
+
+delta = (b**2)-4*a*c
+
+resultado1 = (-b + math.sqrt(delta))/(2*a)
+resultado2 = (-b - math.sqrt(delta))/(2*a)
+
+print (resultado1)
+print (resultado2)
